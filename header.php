@@ -38,9 +38,9 @@
 	<!-- Fonts -->
                 
 	<!-- Stylesheets -->
-    	<?php $phpVersion = '?v=1.0.0'; ?>
-    	<link rel="stylesheet" href="<?php echo '/assets/css/main.css' . $phpVersion; ?>">
-    	<link rel="stylesheet" href="<?php echo '/assets/css/responsive.css' . $phpVersion; ?>">
+	<?php $phpVersion = '?v=1.0.0'; ?>
+	<link rel="stylesheet" href="<?php echo '/assets/css/main.css' . $phpVersion; ?>">
+	<link rel="stylesheet" href="<?php echo '/assets/css/responsive.css' . $phpVersion; ?>">
 
 	<!--
 	 _   __           ___          _
