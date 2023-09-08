@@ -15,23 +15,25 @@
 	<meta name="msapplication-TileColor" content="#000000">
 	<meta name="theme-color" content="#000000">
 
-	<!-- Search Engine -->
-	<meta name="description" content="">
-	<meta name="image" content="">
-	<!-- Schema.org for Google -->
-	<meta itemprop="name" content="">
-	<meta itemprop="description" content="">
-	<meta itemprop="image" content="website-preview.jpg">
-	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-	<meta name="og:title" content="">
-	<meta name="og:description" content="">
-	<!--<meta name="og:image" content="">-->
-	<meta name="og:url" content="">
-	<meta name="og:site_name" content="">
-	<meta name="og:locale" content="en_US">
-	<meta name="og:type" content="website">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
+	<meta name="description" content="We are The Monsters! Grrr. From personalized commissions to stickers, murals, and installations, we are dedicated to making these vibrant Monsters accessible to everyone. We believe all people deserve to be able to own art that brings joy.">
+	<meta name="keywords" content="The Monsters, monster stickers, monsters, monster illustrations, graphic art, random, artist, personalized comissions, murals, art installations">
+	<meta name="author" content="Vue Design, https://vuedesign.co">
+	<meta name='subject' content='illustration, stickers, graphic art, art installations'>
+	<meta name='copyright' content='The Monsters LLC'>
+	<meta name='designer' content='Erik Todd'>
+	<meta name='reply-to' content='info@themonsters.art'>
+	<meta name='owner' content='The Monsters LLC'>
+	<meta name='url' content='https://themonsters.art'>
+	<meta name='identifier-URL' content='https://themonsters.art'>
+	<meta name='og:country-name' content='USA'>
+	<meta name='og:region' content='OH'>
+
+	<meta name='og:title' content='The Monsters'>
+	<meta name='og:type' content='artwork'>
+	<meta name='og:url' content='https://themonsters.art'>
+	<meta name='og:image' content='https://themonsters.art/wp-content/themes/twentytwenty/assets/img/the-monsters-preview.png'>
+	<meta name='og:site_name' content='The Monsters'>
+	<meta name='og:description' content='We are The Monsters! Grrr. From personalized commissions to stickers, murals, and installations, we are dedicated to making these vibrant Monsters accessible to everyone. We believe all people deserve to be able to own art that brings joy.'>
 
 	<!--Bootstrap-->
 
@@ -54,4 +56,33 @@
 
 <body>
 
-<header></header>
+<header id="site-header" class="header-footer-group" role="banner">
+	<div class="header-inner section-inner">
+		<div class="header-titles-wrapper">
+
+			<!-- Nav Menu -->
+			<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"  data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+				<span class="toggle-inner">
+					<span class="toggle-icon">
+						<img src="/assets/img/hamburger-menu.svg">
+					</span>
+				</span>
+			</button>
+		</div>
+
+		<!-- Logo -->
+		<div class="header-titles">
+			<a href="/"><img class="logo" src="/assets/img/the-monsters-logo-color.svg"></a>
+		</div>
+
+		<!-- Shopping Cart -->
+		<a class="cart-contents" href="" title="View your shopping cart"></a>
+	</div>
+</header>
+
+<!-- Social Media Sidebar -->
+<div class="social-media-sidebar">
+	<a href="https://facebook.com/TheMonstersPage"><img src="/assets/img/facebook-icon.svg"></a>
+	<!-- <a href="https://twitter.com"><img src="/assets/img/twitter-icon.svg"></a> -->
+	<a href="https://instagram.com/themonsters.art"><img src="/assets/img/instagram-icon.svg"></a>
+</div>
