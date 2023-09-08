@@ -36,7 +36,8 @@
 	<meta name='og:description' content='We are The Monsters! Grrr. From personalized commissions to stickers, murals, and installations, we are dedicated to making these vibrant Monsters accessible to everyone. We believe all people deserve to be able to own art that brings joy.'>
 
 	<!--Bootstrap-->
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	
 	<!-- Fonts -->
                 
 	<!-- Stylesheets -->
