@@ -22,7 +22,7 @@
 
         var selectImage = images[Math.floor(Math.random() * images.length)];
 
-        $('<a href="https://themonsters.art/shop/' + selectImage + '"><img class="random-image animate__animated animate__fadeIn" src="https://themonsters.art/wp-content/themes/twentytwenty/assets/img/' + selectImage + '.jpg"></a>').appendTo('#banner-images');
+        $('<a href="/' + selectImage + '"><img class="random-image animate__animated animate__fadeIn" src="assets/img/' + selectImage + '.jpg"></a>').appendTo('#banner-images');
         </script>
 
         <!-- Scroll down section -->
@@ -54,45 +54,45 @@
                 <div class="row">
 
                     <div class="col-4">
-                        <img src="">
-                        <span class="d-block product-name">Name</span>
+                        <img src="assets/img/aku.jpg">
+                        <h2 class="d-block product-name">Name</h2>
                         <span class="d-block product-price">$14.99</span>
-                        <div class="buy-btn">Buy</div>
+                        <div class="buy-btn text-uppercase">Add to Cart</div>
                     </div>
 
                     <div class="col-4">
                         <img src="">
-                        <span class="d-block product-name">Name</span>
+                        <h2 class="d-block product-name">Name</h2>
                         <span class="d-block product-price">$14.99</span>
-                        <div class="buy-btn">Buy</div>
+                        <div class="buy-btn text-uppercase">Add to Cart</div>
                     </div>
 
                     <div class="col-4">
                         <img src="">
-                        <span class="d-block product-name">Name</span>
+                        <h2 class="d-block product-name">Name</h2>
                         <span class="d-block product-price">$14.99</span>
-                        <div class="buy-btn">Buy</div>
+                        <div class="buy-btn text-uppercase">Add to Cart</div>
                     </div>
 
                     <div class="col-4">
                         <img src="">
-                        <span class="d-block product-name">Name</span>
+                        <h2 class="d-block product-name">Name</h2>
                         <span class="d-block product-price">$14.99</span>
-                        <div class="buy-btn">Buy</div>
+                        <div class="buy-btn text-uppercase">Add to Cart</div>
                     </div>
 
                     <div class="col-4">
                         <img src="">
-                        <span class="d-block product-name">Name</span>
+                        <h2 class="d-block product-name">Name</h2>
                         <span class="d-block product-price">$14.99</span>
-                        <div class="buy-btn">Buy</div>
+                        <div class="buy-btn text-uppercase">Add to Cart</div>
                     </div>
 
                     <div class="col-4">
                         <img src="">
-                        <span class="d-block product-name">Name</span>
+                        <h2 class="d-block product-name">Name</h2>
                         <span class="d-block product-price">$14.99</span>
-                        <div class="buy-btn">Buy</div>
+                        <div class="buy-btn text-uppercase">Add to Cart</div>
                     </div>
                 </div>
             </div>
