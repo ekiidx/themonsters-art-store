@@ -1,0 +1,153 @@
+/* Media Queries */
+@media (min-width: 576px) {
+    .scroll-down {
+        display: inherit;
+        position: absolute;
+        bottom: 4rem;
+        width: 3rem;
+        margin: 0 auto;
+        right: 4rem;
+    }
+    .welcome p {
+        font-size: 2.2rem;
+        letter-spacing: 0.5rem;
+        margin-bottom: -0.5rem;
+    }
+    #categories .row {
+        flex-direction: row;
+    }
+    .products .product_type_variable {
+        background-size: cover;
+        padding: 25px 18px;
+    }
+    .woocommerce-notices-wrapper .woocommerce-message a.button.wc-forward {
+        background-image: url(../../assets/img/continue-shopping.svg);
+        padding: 25px 22px;
+    }
+}
+
+@media (min-width: 700px) {
+    img.logo {
+        width: 250px;
+        padding-top: 1rem;
+    }
+    #main {
+        padding: 13rem 0 8rem 0;
+    }
+    #about #main .item1 img {
+        padding-top: 2.6rem !important;
+    }
+    #meet-the-monsters #main {
+        padding: 13rem 0 8rem 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .welcome p {
+        font-size: 3.3rem; 
+        margin-bottom: -1.6rem;
+    }
+    #main .container {
+    display: flex;
+    }
+    #main .item1 img {
+        padding-top: 6rem;
+    }
+    #main .item2 h2 {
+        text-align: left;
+    }
+    h1.product_title {
+        text-align: left;
+    }
+    p.price {
+        text-align: left;
+    }
+    .related.products h2 {
+        text-align: left;
+    }
+    .woocommerce-loop-product__title {
+        text-align: center !important;
+    }
+    .monster-selector .monster-selector-item p {
+        margin-bottom: -1rem;
+        text-align: center;
+        font-size: 2.1rem;
+    }
+    .monster-selector .monster-selector-item .back-to-the-monsters {
+        margin: 0 2.5rem;
+    }
+    .monster-selector .monster-selector-item h4 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .woocommerce-notices-wrapper .woocommerce-message a.button.wc-forward {
+        font-size: inherit;
+    }
+    .related-products ul.products {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+    }
+}
+
+@media (min-width: 992px) {
+    h1, .heading-size-1 {
+        font-size: 8rem;
+    }
+    .header-titles {
+        margin: 0;
+    }
+    #hero-main {
+        height: 100vh;
+        /*overflow: clip;*/
+    }
+    .welcome {
+        margin-top: -11rem;
+        margin-bottom: 1rem;
+    }
+    .random-image {
+        width: auto; 
+        max-height: 100%;
+        max-width: 600px; 
+        padding-top: 16rem; 
+        margin: 0 auto; 
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0;
+    }
+    #monster-maker img {
+        width: auto;
+        max-height: 100%;
+        max-width: 600px;
+        padding-top: 15rem;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    #main .item1 {
+        padding: 0 5rem;
+    }
+    #main .item2 {
+    padding: 0 10rem 0 0;
+    }
+    .monster-selector .monster-selector-item .back-to-the-monsters {
+        margin: 0 4.5rem;
+    }
+    .monster-selector .monster-selector-item p {
+        margin-bottom: -1rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .monster-selector .monster-selector-item .back-to-the-monsters {
+        margin: 0 4.5rem;
+    }
+    .monster-selector .monster-selector-item h4 {
+        font-size: 2.3rem;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,624 @@
+@font-face {
+    font-family: RandomWriting;
+    src: url(../../assets/fonts/RandomWriting-Regular.ttf);
+}
+
+.woocommerce ul.products[class*="columns-"] li.product:nth-of-type(2n), .woocommerce-page ul.products[class*="columns-"] li.product:nth-of-type(2n) {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a {
+    color: #F3659D !important;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    color: #ffffff !important;
+}
+.woocommerce-message a.button.wc-forward {
+    color: #ffffff !important;
+}
+.monster-selector a {
+    color: #000000 !important;
+}
+.monster-selector a:hover {
+    color: #F3659D !important;
+}
+
+h1.product_title {
+    text-align: center;
+}
+p.price {
+    text-align: center;
+}
+
+.animate__fadeInDown {
+    animation-duration: 3s;
+}
+
+.the-monsters-color-pink {
+    color: #F3659D;
+}
+
+/* Font styles */
+.random-font {
+    font-family: RandomWriting;
+    font-weight: 800;
+}
+
+/* Header */
+.nav-toggle {
+    right: inherit;
+}
+.nav-toggle .toggle-inner {
+    padding-top: 0.4rem !important;
+}
+.nav-toggle .toggle-icon, .nav-toggle svg {
+    width: 3rem !important;
+}
+#site-header {
+    position: absolute !important;
+    width: 100% !important;
+	/*z-index: 2000;*/
+}
+.header-inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8rem 0;
+}
+.header-inner .toggle {
+    padding: 0 1rem;
+}
+img.logo {
+    display: inline-block;
+    width: 160px;
+    height: auto;
+    padding-top: 0rem;
+}
+.nav-toggle .toggle-icon {
+    height: 4rem;
+}
+.comment-reply-title {
+    text-align: left;
+}
+.comment-notes {
+    text-align: left !important;
+}
+.mobile-search-toggle, .mobile-nav-toggle {
+    display: inherit !important;
+}
+.toggle-inner .toggle-text {
+    display: none;
+}
+.header-titles .site-title {
+    margin-left: 0;
+}
+.mobile-menu {
+    display: block;
+}
+.menu-modal {
+    justify-content: flex-start;
+}
+.menu-modal-inner {
+    transform: translateX(0);
+}
+.toggle-inner {
+    height: 4rem;
+}
+button.close-nav-toggle {
+    justify-content: flex-start;
+}
+button.close-nav-toggle .toggle-text {
+    margin: 0 0 0 2.1rem;
+}
+
+/* 404 Page */
+div.error404-content {
+    padding-top: 13rem;
+}
+
+/* Primary */
+#primary {
+    padding-top: 0;
+}
+
+section.related.products ul.products.columns-4 li {
+    padding-top: 0 !important;
+}
+section {
+    padding: 13rem 0 8rem 0;
+}
+.woocommerce .content-area .site-main {
+    margin: 0 5vw !important;
+}
+
+/* Shop Home */
+/* Hero Main */
+#hero-main {
+    /*overflow: clip;*/
+    /*padding-top: 9rem;*/
+    /*padding: 13rem 0 8rem 0;*/
+}
+@media (min-width: 700px) {
+    #hero-main {
+        /*padding-top: 13rem;*/
+    }
+}
+.random-image {
+    width: auto; 
+    max-height: 450px; 
+    margin: 0 auto; 
+    /*position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;*/
+}
+.scroll-down {
+    display: none;
+}
+
+/* Social Media Sidebar */
+.social-media-sidebar {
+    display: none;
+}
+@media (min-width: 768px) {
+    .social-media-sidebar {
+    display: inherit;
+    position: fixed;
+    left: 0;
+    top: 40vh;
+    width: 4.8rem;
+    margin-left: 1rem;
+    }
+.social-media-sidebar img {
+    padding: 0.5rem;
+    }
+}
+
+/* Welcome Section */
+.welcome {
+    padding: 6.5rem 0 5rem 0;
+    text-align: center;
+}
+.welcome h1 {
+    margin-top: 0;
+}
+.welcome p {
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+#categories {
+    margin-bottom: 12rem;
+}
+#categories .row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#categories h2 {
+    font-size: 3.3rem;
+}
+#categories .item {
+    padding: 0 2.5rem 0 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+#categories .item .cat-apparel {
+    padding: 26px 30px;
+}
+#categories .item a {
+    color: #ffffff !important;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+
+/* About */
+#about #main {
+    padding: 0 0 8rem 0;
+}
+#about #title {
+    padding-bottom: 0;
+}
+#about #title .row {
+    display: flex;
+    justify-content: center;
+}
+#about #main .item1 img {
+    padding-top: 0 !important;
+}
+
+/* Meet The Monsters */
+#meet-the-monsters h1 {
+    text-align: center;
+}
+#meet-the-monsters #main {
+    padding: 10rem 0 5rem 0;
+}
+#the-monsters .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#the-monsters {
+    padding-top: 0;
+    margin-top: 0;
+}
+#the-monsters img {
+    width: 300px;
+}
+.monster-selector {
+    margin-top: 4rem;
+}
+.monster-selector .monster-selector-item {
+    display: flex;
+    justify-content: center;
+}
+.monster-selector .monster-selector-item p {
+    margin-bottom: -1rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.monster-selector .monster-selector-item h4 {
+    font-size: 1.68rem;
+    margin: 0;
+}
+.monster-selector .monster-selector-item img {
+    width: 3rem !important; 
+    margin-top: 2rem !important;
+    max-width: 3rem !important;
+    margin-right: 0 !important;
+    padding-top: 0 !important;
+}
+.monster-selector .monster-selector-item .back-to-the-monsters {
+    margin: 0 2.5rem;
+    min-width: 125px;
+}
+.monster-selector .monster-selector-item .back-to-the-monsters a {
+    display: block;
+}
+
+/* Product Page */
+/* Fix Cart + Checkout Header padding */
+header.entry-header {
+    padding: 15rem 0 3rem 0 !important;
+}
+/* Remove Additional Info tab with weight */
+div.woocommerce-tabs.wc-tabs-wrapper {
+    display: none;
+}
+/* Remove Company from Billing info section on checkout */
+p#billing_company_field {
+    display: none;
+}
+/* Remove Country from Billing info section on checkout */
+/*p#billing_country_field {
+    display: none;
+}*/
+/* Magnifying glass */
+.woocommerce-product-gallery__trigger {
+    display: none !important;
+}
+.comment-respond p {
+    margin-left: inherit !important;
+}
+.woocommerce-tabs #reviews .comment-form-rating label {
+    margin: inherit !important;
+}
+.woocommerce-tabs #tab-reviews #submit {
+    float: inherit !important;
+}
+/*.product.type-product {
+    padding-top: 13rem;
+}*/
+/*.summary .quantity {
+    display: flex;
+    justify-content: center;
+}*/
+.related.products h2 {
+    text-align: center;
+}
+.woocommerce-product-gallery__image img {
+    margin: 0 auto;
+}
+
+/* Main */
+#main {
+    padding: 10rem 0;
+}
+#main .container {
+    display: block;
+    margin: 0 5rem;
+}
+#main .item1 {
+    flex-basis: 50%;
+    padding: 0;
+}
+#main .item1 img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+#main .item2 {
+    flex-basis: 50%;
+    padding: 0;
+}
+#main .item2 h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+#main .item2 img {
+    width: 100%;
+    height: auto;
+    max-width: 15rem;
+    margin-right: 5rem;
+}
+#main .item2 .random-signature {
+    display: flex;
+    justify-content: flex-end;
+}
+/*#related-products-meet-the-monsters {
+    padding-top: 0 !important;
+}
+#related-products-meet-the-monsters .container {
+    margin: 0 6rem;
+}
+#related-products-meet-the-monsters img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+}
+#related-products-meet-the-monsters .item1 {
+    display: flex;
+}
+#related-products-meet-the-monsters .item1 img {
+    width: 250px;
+}*/
+
+/* Monster Maker */
+#monster-maker .row {
+    display: flex;
+    justify-content: center;
+}
+#monster-maker img {
+    width: auto;
+    max-height: 450px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer-credits {
+    display: flex;
+}
+.powered-by-wordpress {
+    display: block;
+}
+
+/* WooCommerce */
+/*Meet the monsters related products flex fix */
+/*.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product {
+    width: 29% !important;
+}*/
+.woocommerce-info {
+    border-top: 2px solid #F3659D !important;
+}
+/* Fix 2 column on mobile screen issue */
+@media only screen and (max-width:667px) {
+    .woocommerce ul.products[class*=columns-] li.product,
+    .woocommerce-page ul.products[class*=columns-] li.product {
+     width: 48% !important;
+    }
+}
+/* Related products section on products page 4 -> 3 column flex fix */
+.woocommerce .related.products ul.products, .woocommerce-page .related.products ul.products {
+    flex-direction: inherit !important;
+    justify-content: flex-start !important;
+}
+/* Remove shipping details on cart page */
+/*tr.woocommerce-shipping-totals.shipping {
+    display: none !important;
+}*/
+.woocommerce-result-count {
+    display: none;
+}
+.woocommerce-ordering {
+    display: none;
+}
+.woocommerce ul.products li.product-category a h2.woocommerce-loop-category__title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.woocommerce-loop-product__title {
+    text-align: center;
+}
+li.product {
+    text-align: center;
+    display: block !important;
+}
+div.star-rating {
+    display: none !important;
+}
+.cart-contents-count {
+    background-color: #F3659D !important;
+}
+.product-category img {
+	display: none;
+}
+.woocommerce-loop-category__title {
+	display: none;
+}
+ul.products li.product .woocommerce-loop-product__link {
+    display: inline-block !important;
+}
+.cart-contents {
+    text-decoration: none;
+}
+.woocommerce-products-header {
+    display: none;
+}
+.cart_totals tr.woocommerce-shipping-totals.shipping:nth-of-type(1) th {
+    display:none;
+}
+
+/* Shopping Cart */
+.fur-box {
+    background-image: url(../../assets/img/the-monsters-continue-shopping.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 26px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.fur-box:hover {
+    text-decoration: underline;
+}			
+.cart-contents:before {
+    font-family:WooCommerce;
+    content: "\e01d";
+    font-size:28px;
+    margin-top:10px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:5px;
+    vertical-align: bottom;
+}
+.cart-contents:hover {
+    text-decoration: none;
+}
+.cart-contents-count {
+    color: #fff;
+    background-color: #2ecc71;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px 6px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-checkout1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 22px 7px;
+    color: #ffffff !important;
+    background-size: contain;
+}
+.checkout-button {
+    padding: 0px;
+}
+.woocommerce-checkout-payment .place-order button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-place-order.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 950px;
+    height: auto;
+    margin: 0 auto 20px;
+    text-indent: -99999px;
+}
+/* Return to shop button */
+.woocommerce .return-to-shop a {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-return-to-shop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 190px;
+    height: auto;
+    margin: 0 auto 20px;
+    text-indent: -99999px;
+    width: 100%;
+}
+/* Add to cart button */
+.products .add_to_cart_button {
+    background-color: transparent;
+    color: #ffffff !important;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-continue-shopping.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+/* Variable Product add to cart button */
+.products .product_type_variable {
+    background-color: transparent;
+    color: #ffffff !important;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-continue-shopping.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 13px 14px;
+}
+/* Continue shopping button */
+.woocommerce-notices-wrapper .woocommerce-message a.button.wc-forward {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-continue-shopping.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 13px 0px;
+}
+/* Product page add to cart button */
+.summary.entry-summary form.cart button.single_add_to_cart_button.button.alt {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-continue-shopping.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-top: -0.75rem;
+}
+/* Review submit button */
+input#submit.submit {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-continue-shopping.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+/* Contact form submit button */
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url(../../assets/img/the-monsters-continue-shopping.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.woocommerce-additional-fields {
+    display: none;
+}
+
+/* Contact */
+#contact {
+    margin: 0;
+    padding-top: 9rem;
+    display: flex;
+    justify-content: center;
+}
+#contact h1 {
+    text-align: center;
+}
