@@ -1,7 +1,7 @@
 # themonsters-art-store
 The monsters, a fun, colorful webshop theme.
 
-<img src="/assets/img/themonsters-preview.jpg">
+<img src="/assets/img/themonsters-preview.jpeg">
 
 The Monsters are a visual series based out of Cleveland, Ohio. The colorful creatures come from the imagination of local visual, and street artist, Random. These weird, welcoming, and each totally unique monsters have a name, along with a whimsical story that needed to be told in an interactive way.
 
